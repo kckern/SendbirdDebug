@@ -7,7 +7,7 @@ function App() {
   const [members, setMembers] = useState([]);
 
   var sb = new SendBird({ appId: "386311F5-8923-4F4D-8BE1-C3E95C2AD963", localCacheEnabled: true });
-  sb.connect("tytus", "da8107ba9a97a47cbba61e29085d1a160d44e46b", function (user, error) {
+  sb.connect("martinharris", "728a2c97f4900b0e869a7b7ab7cf3e727252abc1", function (user, error) {
     if (error) {
       // Handle error.
     }
