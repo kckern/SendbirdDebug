@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <h1>Test IMGS</h1>
       <div className='imgs'>
-      {members.map(member => <div><img src={member.profileUrl} /></div>)}
+      {members.map(member => <div><img alt="" src={member.profileUrl} /></div>)}
       </div>
     </div>
   );
